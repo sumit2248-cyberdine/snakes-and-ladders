@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="SnakesRuleSet" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://src/resources/snakes_rule_set.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+rule_name = "Quick"
+finish_rule = 0
+extra_roll_on_six = true
+cancel_on_three_sixes = true
+extra_roll_on_ladder = false
+portal_preset = "quick"
+bounce_triggers_portal = false

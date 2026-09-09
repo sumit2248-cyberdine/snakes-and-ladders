@@ -1,0 +1,11 @@
+# Godot
+.godot/
+
+# macOS
+.DS_Store
+
+# QA output (test artifacts, not source)
+qa_shots/
+
+# Local build / export artifacts
+build/

@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="SnakesRuleSet" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://src/resources/snakes_rule_set.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+rule_name = "Blitz"
+finish_rule = 2
+extra_roll_on_six = true
+cancel_on_three_sixes = false
+extra_roll_on_ladder = true
+portal_preset = "classic_mb"
+bounce_triggers_portal = false

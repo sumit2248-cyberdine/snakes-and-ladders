@@ -1,0 +1,13 @@
+[gd_scene load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://src/gameplay/board_scene.gd" id="1"]
+[ext_resource type="Script" path="res://src/resources/snakes_terrace_settings.gd" id="2"]
+
+[sub_resource type="Resource" id="Terrace_default"]
+script = ExtResource("2")
+step_height = 0.35
+master_scale = 1.0
+
+[node name="TerracedBoard" type="Node3D"]
+script = ExtResource("1")
+terrace_settings = SubResource("Terrace_default")
